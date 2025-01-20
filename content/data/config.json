@@ -53,20 +53,6 @@
                 "url": "https://github.com/christopherdavideh",
                 "style": "github",
                 "new_window": true
-            },
-            {
-                "label": "Instagram",
-                "url": "https://www.instagram.com/christopherdavideh/",
-                "style": "instagram",
-                "new_window": true,
-                "no_follow": false
-            },
-            {
-                "label": "Facebook",
-                "url": "https://www.facebook.com/christopherdavideh",
-                "style": "facebook",
-                "new_window": true,
-                "no_follow": false
             }
         ],
         "content": "@christopherdavideh &bull; All rights reserved &copy; "
