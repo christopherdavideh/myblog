@@ -1,4 +1,4 @@
 [build]
 publish = "out"
 command = "npm run build"
-environment = { NODE_VERSION = "16" }
+environment = { NODE_VERSION = "16", NETLIFY_NEXT_PLUGIN_SKIP = "true" }
