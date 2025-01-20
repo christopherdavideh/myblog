@@ -1,0 +1,76 @@
+{
+    "title": "Christopher David Erazo Herrera",
+    "path_prefix": "/",
+    "header": {
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "About me",
+                "url": "/christopher-david-erazo-herrera",
+                "style": "blue"
+            },
+            {
+                "label": "Portfolio",
+                "url": "./portfolio",
+                "style": "blue"
+            },
+            {
+                "label": "Contact",
+                "url": "/contact",
+                "style": "blue"
+            }
+            
+        ],
+        "logo": "/images/LOGO.png",
+        "logo_alt": "cdeh_logo",
+        "title": "Mi perfil"
+    },
+    "footer": {
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Terms and Conditions",
+                "url": "/terms",
+                "style": "link"
+            }
+        ],
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/christopherdavideh/",
+                "style": "linkedin",
+                "new_window": true
+            },
+            {
+                "label": "Twitter",
+                "url": "https://twitter.com/christopdavideh",
+                "style": "twitter",
+                "new_window": true
+            },
+            {
+                "label": "GitHub",
+                "url": "https://github.com/christopherdavideh",
+                "style": "github",
+                "new_window": true
+            },
+            {
+                "label": "Instagram",
+                "url": "https://www.instagram.com/christopherdavideh/",
+                "style": "instagram",
+                "new_window": true,
+                "no_follow": false
+            },
+            {
+                "label": "Facebook",
+                "url": "https://www.facebook.com/christopherdavideh",
+                "style": "facebook",
+                "new_window": true,
+                "no_follow": false
+            }
+        ],
+        "content": "@christopherdavideh &bull; All rights reserved &copy; "
+    },
+    "domain": "https://christopher-blog-df3dc.netlify.app/christopher-david-erazo-herrera/",
+    "favicon": "/images/ChristopherErazo.ico"
+}

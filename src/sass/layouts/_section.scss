@@ -1,0 +1,161 @@
+/**
+ * Content Sections
+ */
+.section {
+    margin-bottom: 3.75rem;
+
+    &:first-child {
+        padding-top: 3.75rem;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+        padding-bottom: 3.75em;
+    }
+
+    .container + .container {
+        margin-top: 2.25rem;
+    }
+}
+
+.bg-blue,
+.bg-gray,
+.bg-green,
+.has-bg {
+    padding-bottom: 3.75em;
+    padding-top: 3.75em;
+}
+
+.bg-blue {
+    background-color: $color-inverse-bg;
+}
+
+.bg-gray {
+    background-color: #004283;
+}
+
+.bg-green {
+    background-color: $color-inverse-green;
+    //color: $color-btn;
+}
+
+.section__media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__media,
+.section__body {
+    position: relative;
+}
+
+.section__actions {
+    a {
+        &:not(.btn) {
+            font-weight: 700;
+        }
+    }
+}
+
+.section__actions .hero,
+.section--features {
+    .cell {
+        max-width: $width-md;
+
+        &:only-child {
+            flex: 0 0 100%;
+        }
+    }
+}
+
+.hero {
+    &:first-child {
+        &:not(.section--padding) {
+            margin-bottom: 2.25rem;
+            padding-bottom: 0;
+        }
+    }
+}
+
+.hero {
+    background: rgb(43, 85, 166);
+    background: radial-gradient(circle, rgb(43, 85, 166, 1) 0%, rgb(255, 255, 255, 1) 16%) calc(100% - 75%) calc(100% - 10%) / 200% 200%;
+    animation: change1 10s linear infinite alternate;
+}
+
+@keyframes change1 {
+    to {
+        background-position: calc(50% + 10%) calc(100% - 95%);
+    }
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    /*margin-left: calc(50% - 140px);*/
+}
+
+.section--features {
+    .flex {
+        margin-bottom: 3.75rem;
+    }
+}
+
+.section--team,
+.section--posts {
+    .cell {
+        margin-bottom: 1.5rem;
+        max-width: $width-sm;
+    }
+}
+
+.section--team {
+    .card__media {
+        margin-top: auto;
+        padding-top: 100%;
+        position: relative;
+
+        img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+.section--cta {
+    .bg-blue,
+    .bg-green,
+    .bg-gray {
+        border-radius: 3px;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .section__media {
+        &--right {
+            order: 1;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .section__media {
+        margin-bottom: 1.5rem;
+    }
+
+    .section--team,
+    .section--posts {
+        .flex {
+            justify-content: center;
+        }
+    }
+}

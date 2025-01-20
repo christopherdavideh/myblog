@@ -1,0 +1,53 @@
+/**
+ * Styles for dark backgrounds
+ */
+.inverse, .inverse--green {
+  color: $color-inverse-heading;
+  
+  p {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  a {
+    color: $color-inverse-link;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color-inverse-heading;
+  }
+
+  .btn {
+    background-color: $color-btn;
+    border-color: $color-btn;
+    color: $color-btn-facebook;
+  }
+
+  .btn--secondary {
+    background-color: $color-inverse-btn-alt-bg;
+    border-color: $color-inverse-btn-alt-border;
+    color: $color-btn-blue;
+  }
+
+  .btn--info {
+    background-color: $color-inverse-btn-alt-bg;
+    border-color: $color-inverse-green;
+    color: $color-inverse-green;
+  }
+
+  .btn--clear {
+    background: 0;
+    color: $color-inverse-btn-clear;
+  }
+  
+  .btn--blue {
+    background-color: $color-btn-blue;
+    border-color: $color-btn-blue;
+    color: $color-btn;
+  }
+}
