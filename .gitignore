@@ -40,6 +40,8 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+yarn.lock
+yarn-error.log
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -96,3 +98,4 @@ out
 .sourcebit-nextjs-cache.json
 .DS_Store
 .idea
+yarn.lock
